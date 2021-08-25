@@ -1,0 +1,29 @@
+{
+	"exchange": {
+		"name": "binance",
+		"pairs": ["BTC/USDT"],
+		"timeframes": ["2h"],
+		"inf_pair": "BTC/USDT",
+		"inf_timeframe": "1w",
+		"fee_pct": 0.1
+		},
+	"strategy": {
+		"name": "TR",
+		"parameters": {
+			"0": {
+				"name": "bb",
+				"range": [20, 40]
+			},
+			"1": {
+				"name": "std",
+				"range": [2, 4]
+			}
+		},
+		"stoploss_ini": -0.02,
+		"roi_ini": 0.10
+	},
+	"optimization": {
+		"step_size": 2,
+		"trailing_months": 6
+	}
+}
