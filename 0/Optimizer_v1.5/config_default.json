@@ -28,8 +28,8 @@
     },
     "exchange": {
         "name": "binance",
-        "key": "KVml0VGWUe4iWbhAV0AObYP1Js88JgNJ2nF1dX2of1mlQcoRucQFEMMaRKPXGcYH",
-        "secret": "IQuOABt4LAQzyNRoiOn0HrrrrT3uj2nIcsGhi3k7Fi9PN8NjZXD6tgHrAcFCPpyj",
+        "key": "",
+        "secret": "",
         "ccxt_config": {"enableRateLimit": true},
         "ccxt_async_config": {
             "enableRateLimit": true,
@@ -67,8 +67,8 @@
         "enabled": false,
         "token": "",
         "chat_id": ""
-//      "token": "1006944919:AAGSIb_edGz02cgPiSNIjsHMFQ0hs4OE1oA",
-//      "chat_id": "502909519"
+//      "token": "",
+//      "chat_id": ""
     },
     "initial_state": "running",
     "forcebuy_enable": false,
